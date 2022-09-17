@@ -72,3 +72,16 @@ header{
 .rock:hover, .paper:hover, .scissor:hover{
     background-color: #03486b;
 }
+
+/* FOOTER */
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #022a3d;
+    color:#8ecae6;
+    font-weight: 600;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1rem 0;
+}
