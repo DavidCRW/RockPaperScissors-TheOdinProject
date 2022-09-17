@@ -1,0 +1,74 @@
+/* MAIN SETTINGS */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #023047;
+}
+img{
+    width: 100%;
+}
+/* HEADER */
+header{
+    max-width: 1200px;
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+    color: #ffb703;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-shadow: 0 0 10px #c08a00;
+}
+
+/* CONTAINER */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .sub-title{
+    color: #8ecae6;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+.container .sub-title h2{
+    font-size: 2rem;
+}
+.container .sub-title span{
+    font-size: 1.1rem;
+}
+.container .players{
+    margin-top: 2rem;
+    display: flex;
+    gap: 4rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #8ecae6;
+}
+.container .game{
+    display: flex;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+.container .game img{
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+.rock, .paper, .scissor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #8ecae6;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.rock:hover, .paper:hover, .scissor:hover{
+    background-color: #03486b;
+}
